@@ -16,6 +16,6 @@ jobs:
           python model.py
 
           echo "## Model Metrics" > report.md
-          cat matrics.txt >> report.md
+          cat metrics.txt >> report.md
 
           cml-send-comment report.md
